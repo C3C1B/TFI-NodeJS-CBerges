@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITEM | Funkoshop</title>
+</head>
+<body>
+    <header>
+        <nav> 
+            <a href="./index.html"> <!--Logo del header con imagen con link a home-->
+                <img src="./img/branding/logo_light_horizontal.svg" alt="Isologotipo Funkshop"> <!--Imagen del logo con link-->
+            </a>              
+            <ul> <!--lista de barra de navegación-->
+               <li><a href="./pages/shop.html">SHOP</a></li>
+               <li><a href="./pages/contact.html">CONTACTO</a></li>
+               <li><a href="./pages/login.html">LOGIN</a></li>
+               <li><a href="./pages/cart.html">
+                    <img src="./img/icons/cart-icon.svg" alt="Imágen de carrito">
+                    </a></li> 
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section> <!--section de item-->
+            <article>
+                <p>STAR WARS</p>
+                <h3>BABY YODA BLUEBALL</h3>
+                <p>Figura coleccionable de Baby Yoda (Grogu) - The Mandalorian Saga, edición limitada.</p>
+                <p>$ 1799,99</p>
+                <a href="">Ver métodos de pago - 3 CUOTAS SIN INTERÉS</a>
+            </article>
+            <picture>
+                <img src="./img/star-wars/baby-yoda-1.webp" alt="Imágen de Baby Yoda">
+            </picture>
+        </section> <!--fin section de item-->
+        <section> <!--section de Productos Relacionados-->
+            <h2>PRODUCTOS RELACIONADOS</h2> <!--Título de section, entonces es más importantes que los de cada colección-->
+            <ul> <!--cada muñeco es un elemento de lista y tiene un article-->
+                <li><article> <a href=""><!--para que al clickear cualquier elemento del article se lleve a la shop, se incluyen todos en un link-->
+                    <picture><img src="./img/star-wars/trooper-1.webp" alt="imágen de trooper"></picture>
+                    <div> <!--div para separar los textos de la img-->
+                        <p>STAR WARS</p>
+                        <h4>STORMTROOPER LIGHTSABER</h4>
+                        <p>$ 1799,99</p>
+                        <p>3 CUOTAS SIN INTERÉS</p>
+                    </div>                  
+                    </a></article></li> 
+                <li><article> <a href="">
+                    <picture><img src="./img/pokemon/pidgeotto-1.webp" alt="imágen de pidgeotto pokemon"></picture>
+                    <div> 
+                        <p>POKEMON</p>
+                        <h4>PIDGEOTTO</h4>
+                        <p>$ 1799,99</p>
+                        <p>3 CUOTAS SIN INTERÉS</p>
+                    </div>                  
+                    </a></article></li>
+                <li><article><a href="">
+                    <picture><img src="./img/harry-potter/luna-1.webp" alt="imágen de Luna Harry Potter"></picture>
+                    <div> 
+                        <p>HARRY POTTER</p>
+                        <h4>LUNA LOVEGOOD LION MASK</h4>
+                        <p>$ 1799,99</p>
+                        <p>3 CUOTAS SIN INTERÉS</p>
+                    </div>                  
+                    </a></article></li>
+            </ul>
+        </section> <!--fin section Productos Relacionados-->
+    </main>
+    <footer> <!--2 secciones: menu + logo y texto de copyright-->
+        <section><!--section del menu y logo-->
+            <nav>
+                <ul>
+                    <li><a href="./pages/shop.html">SHOP</a></li>
+                    <li><a href="./pages/login.html">INGRESAR</a></li>
+                    <li><a href="./pages/contact.html">CONTACTO</a></li>
+                </ul>
+                <picture>
+                    <img src="./img/branding/isotype.svg" alt="Isologotipo">
+                </picture>
+            </nav>
+        </section>
+        <p>All rights reserved 2023 - Funkoshop &copy;</p>
+    </footer> 
+</body>
+</html>
